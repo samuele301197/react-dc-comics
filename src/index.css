@@ -5,5 +5,70 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: fantasy;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header{
+  display: flex;
+  height: 100px;
+  padding: 20px;
+  align-items: center;
+  margin: 20px;
+}
+
+.main-black{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.main-blue{
+   background-color: rgb(77, 77, 252);
+  color: white;
+  padding: 20px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+}
+
+.main-blue .container {
+  align-items: center;
+  padding: 80px;
+}
+
+img{
+  width: 50px;
+}
+
+.flex{
+  display: flex;
+}
+
+.main-black .container{
+  padding: 40px;
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 25px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.blue{
+  color: blue;
+  border-bottom: 2px solid blue;
+  padding: 10px;
 }

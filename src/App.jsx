@@ -6,9 +6,10 @@ function App() {
 
   return (
     <>
-    <AppHeader />
+      <AppHeader />
     <AppMain />
     <AppFooter />
+    
     </>
   )
 }
