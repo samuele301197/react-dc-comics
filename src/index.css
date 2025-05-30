@@ -70,5 +70,66 @@ a{
 .blue{
   color: blue;
   border-bottom: 2px solid blue;
+  padding-bottom: 50px;
+}
+
+.col-3{
+  width: 30%;
+  margin-left: 50px;
+}
+
+.col-7{
+  width: 70%;
+}
+
+.height{
+  height: 100px;
+}
+
+h3{
+  margin: 15px 0;
+}
+
+ul li{
+  list-style: none;
+}
+
+.footer{
+  background-repeat: no-repeat;
+  background-position: right;
+  background-image:url(../public/img/dc-logo-bg.png), url(../public/img/footer-bg.jpg);
+  color: white;
+  
+}
+
+.btn{
+  background-color: rgb(51, 51, 51);
+  border: 2px solid blue;
+  color: white;
+  padding: 5px;
+}
+
+.gray{
+  background-color: rgb(51, 51, 51);
+  height: 60px;
   padding: 10px;
+}
+
+.gray a{
+  color: rgb(77, 77, 252);
+  margin-right: 15px;
+}
+
+
+.py-5{
+  padding: 5px;
+}
+
+.gray .flex {
+  align-items: center;
+}
+
+.gray img{
+  width: 20px;
+  margin: 0 10px;
 }
