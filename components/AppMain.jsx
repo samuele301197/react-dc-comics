@@ -1,13 +1,15 @@
-
+import AppComics from "./AppComics.jsx";
 
 function AppMain() {
     return (
         <>
         <div className="main-black">
             <div className="container">
-                      <h1>--CONTENT GOES HERE--</h1>
             </div>
         </div>
+      <section>
+        <AppComics />
+      </section>
         <div className="main-blue">
             <div className="container flex">
                     <img src="/img/buy-comics-digital-comics.png" alt="buy-comics" />
