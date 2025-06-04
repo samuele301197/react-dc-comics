@@ -3,13 +3,13 @@ import ComicCard from "./ComicCard.jsx"
 
 const AppComics = () => {
     const renderComics = () => {
-        return comics.map((curElem) => {
-            <ComicCard
+        return comics.map((curElem) => (
+             <ComicCard
             key = {curElem.id}
             title = {curElem.title}
             image = {curElem.thumb}
             />
-        });
+        ));
     };
     
 return(
@@ -19,7 +19,7 @@ return(
                     </div>
                 </div>
             </div>
-)
+);
 };
 
 
