@@ -62,7 +62,6 @@ body {
 
 .main-blue .container {
   align-items: center;
-  padding: 80px;
 }
 
 img{
@@ -113,6 +112,7 @@ h3{
 
 ul li{
   list-style: none;
+  color: dimgray;
 }
 
 .footer{
