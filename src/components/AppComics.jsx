@@ -1,4 +1,4 @@
-import comics from "../public/comics.js";
+import comics from "../../public/data/comics.js";
 import ComicCard from "./ComicCard.jsx"
 
 const AppComics = () => {

@@ -1,4 +1,4 @@
-import AppComics from "./AppComics.jsx";
+import AppComics from "../components/AppComics.jsx";
 
 function AppMain() {
     return (
